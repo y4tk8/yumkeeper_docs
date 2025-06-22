@@ -9,7 +9,7 @@ YouTubeで作り方を覚えても具材や調味料、分量などを料理の�
 
 ### 特徴
 - YouTube動画を各レシピページに埋め込み可能
-- 外部検索リンク（「新しいタブでYouTubeを開く」ボタン）の設置でYouTubeアクセス & 動画URL取得を簡単に
+- 外部検索リンク（「新しいタブでYouTubeを開く」ボタン）の設置でYouTubeアクセス & 動画URL取得を簡便に
 - 具材、調味料、分量などを簡単に登録できる
 - シンプルでわかりやすいUI & SPAによる優れたUX
 
@@ -26,10 +26,13 @@ YouTubeで作り方を覚えても具材や調味料、分量などを料理の�
 また、分量などのカスタム管理は不可。
 
 ### 主な使用技術
-- バックエンド: Ruby on Rails / RSpec
-- フロントエンド: TypeScript / React / Next.js / Tailwind CSS / Vitest / React Testing Library / MSW / Cypress
+- バックエンド:
+  - Ruby 3.3.7 / Ruby on Rails 7.2.2.1 / RSpec
+- フロントエンド:
+  - TypeScript 5.8.2 / React 19.0.0 / Next.js 15.1.6 / Tailwind CSS / Shadcn UI
+  - Vitest / React Testing Library / MSW / Cypress
 - インフラ: AWS(Route53 / ALB / ECS on Fargate / ECR / RDS / ACM etc) / Nginx / Vercel
-- CI/CD: GitHub Actions
+- CI / CD: GitHub Actions
 - 環境構築: Docker / Docker Compose / Dev Containers
 - 外部API: YouTube Data API
 
