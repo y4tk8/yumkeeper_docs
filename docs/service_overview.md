@@ -26,14 +26,20 @@ YouTubeで作り方を覚えても具材や調味料、分量などを料理の�
 また、分量などのカスタム管理は不可。
 
 ### 主な使用技術
-- バックエンド:
-  - Ruby 3.3.7 / Ruby on Rails 7.2.2.1 / RSpec
-- フロントエンド:
-  - TypeScript 5.8.2 / React 19.0.0 / Next.js 15.1.6 / Tailwind CSS / Shadcn UI
-  - Vitest / React Testing Library / MSW / Cypress
-- インフラ: AWS(Route53 / ALB / ECS on Fargate / ECR / RDS / ACM etc) / Nginx / Vercel
-- CI / CD: GitHub Actions
-- 環境構築: Docker / Docker Compose / Dev Containers
+- バックエンド
+  - 言語: Ruby 3.3.7 / Ruby on Rails 7.2.2.1
+  - テスト・開発支援: RSpec / RuboCop
+  - 認証: Devise / Devise Token Auth
+  - ページネーション: Pagy
+- フロントエンド
+  - 言語: TypeScript 5.8.2 / React 19.0.0 / Next.js 15.1.6
+  - デザイン: Tailwind CSS / Shadcn UI
+  - テスト・開発支援: Vitest / React Testing Library / MSW / Cypress / ESLint / Prettier
+- インフラ
+  - AWS: Route53 / ALB / ECS Fargate / ECR / RDS PostgreSQL / ACM / CloudWatch etc.
+  - Nginx / Vercel
+- CI/CD: GitHub Actions
+- コンテナ技術: Docker / Docker Compose / Dev Containers
 - 外部API: YouTube Data API
 
 ### 参考データ
